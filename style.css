@@ -1,0 +1,224 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kanit";
+  margin: 2rem;
+  background-color: #e2eaec;
+  color: black;
+}
+
+.grid{
+  
+  display: grid;
+  grid-template-columns: auto auto 10rem 10rem ;
+
+
+}
+.grid .grd-2{
+  width: fit-content;
+  font-weight: 700;
+  padding-left: 28rem;
+  justify-content: center;
+ 
+}
+
+header {
+  width: 95vw;
+}
+
+.top-nav li {
+ color: black;
+  list-style-type: none;
+  text-decoration: none;
+}
+.top-navv a{
+  color: white;
+  text-decoration: none;
+
+}
+.top-navv a:hover{
+
+color: yellow;
+
+}
+.top-nav a:hover{
+  color: white;
+}
+
+
+.top-navv a:focus{
+
+  color: yellow;
+  
+  }
+  .top-nav a:focus{
+    color: white;
+  }
+
+
+
+
+.top-navv li {
+  color: white;
+   list-style-type: none;
+   text-decoration: none;
+ }
+
+.top-nav a {
+  color: #222;
+  text-decoration: none;
+  
+}
+
+
+
+
+
+
+
+.android{
+  
+height:50px;
+width: 150px;
+border-radius: 30px;
+}
+.lamp{
+ float: left;
+ margin-top: -7.5rem;
+ margin-left: 20rem;
+ position: absolute;
+ z-index: 2; 
+ }
+.light {
+  height: 350px;
+  width: 450px;
+ margin-left: 22.3rem;
+ margin-top: 12.2rem;
+  position: absolute;
+  z-index: 2; 
+}
+
+.lthid{
+
+display: none;
+
+}
+
+
+.heading{
+  font-family:'ABeeZee';
+  color: white;
+  opacity: 0.8;
+  position: absolute;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 250px;
+}
+
+.eas{
+ font-size: 350px;
+ letter-spacing: 20px;
+ margin-top: -1rem;
+ height: fit-content;
+
+}
+.sma{
+
+margin-left: 25rem;
+font-size: 350px;
+letter-spacing: 20px;
+margin-top: -10rem;
+}
+.iphone{
+margin-left: 42rem;
+margin-top: -5rem;
+}
+.iphone img{
+height: 800px;
+width: 800px;
+position: absolute;
+z-index: 1;
+}
+.content{
+  margin-top: 25rem;
+}
+.content span{
+  margin-left: 2rem;
+  font-size: 65px;
+  text-align: left;
+  justify-content:left;
+  margin-top: 8rem;
+  position: absolute;
+  z-index: 1;
+
+}
+.chck{
+  margin-top: 15rem;
+  position: absolute;
+  z-index: 1;
+  margin-left: 2rem;
+}
+
+
+
+
+.toggle-item {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.toggle-item + label {
+  display: flex;
+  width: 7em;
+  height: 3em;
+  background: #aaa;
+  border-radius: 50px;
+  position: relative;
+  transition: all .3s ease;
+  cursor: pointer;
+  box-shadow: inset 0 0 5px #222;
+}
+.toggle-item + label:after {
+  content: '';
+  position: absolute;
+  width: 2.5em;
+  height: 2.5em;
+  background: #fff;
+  border-radius: 50%;
+  top: .25em;
+  left: .25em;
+  transition: all .2s ease;
+}
+.toggle-item:checked + label {
+  background: #62CDFF;
+}
+.toggle-item:checked + label:after {
+  left: 4.1em;
+}
+
+
+
+/* @media screen and (max-width: 375px) {
+body{
+  font-size: 14px;
+}
+  .grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+  
+} */
+.darkmode{  
+  background-color: black;
+  color: white;
+}
+.darkmodeli {
+
+  color: white;
+
+}.darkmodebtn{
+  background-color: black;
+  color: white;
+}
